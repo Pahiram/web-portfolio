@@ -70,7 +70,6 @@ body{
 	width: 50px;
 	height: 50px;
 }
-
 .iconDiv{
 	position: relative;
 	bottom: -180px;
@@ -97,3 +96,92 @@ body{
 	padding-right: 130px;
 }
 
+/*SECOND PAGE LAYOUT*/
+.boxedHeader2ndInfo {
+  	position: relative;
+	top: 30px;
+	left: -250px;
+	width: 97%;
+	height: 640px;
+}
+
+/*SECOND - WORK EXP*/
+.headDetailsWork3{
+	position: absolute;
+	top: -25px;
+	left: -10px;
+	color: black;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 80px;
+}
+.headDetailsWork{
+	position: absolute;
+	top: -25px;
+	left: -180px;
+	color: black;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 80px;
+}
+.headDetailsWork1{
+	position: absolute;
+	top: 58px;
+	left: 100px;
+	color: black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 45px;
+}
+.workImage{
+	width: 6%;
+	position: absolute;
+	top: 75px;
+	left: -95px;
+}
+
+/*SECOND - skill*/
+.headDetailsSkill3{
+	position: absolute;
+	top: -25px;
+	left: -13px;
+	color: black;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 80px;
+}
+.headDetailsSkill{
+	position: absolute;
+	top: -25px;
+	left: -180px;
+	color: black;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 80px;
+}
+.skillImage{
+	width: 6%;
+	position: absolute;
+	top: 68px;
+	left: -84px;
+	transform: rotate(-45deg);
+}
+
+/*THIRD - skill*/
+.headDetailsProject3{
+	position: absolute;
+	top: -25px;
+	left: -13px;
+	color: black;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 80px;
+}
+.headDetailsProject{
+	position: absolute;
+	top: -25px;
+	left: -180px;
+	color: black;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 80px;
+}
+.projectImage{
+	width: 6%;
+	position: absolute;
+	top: 75px;
+	left: -88px;
+}
