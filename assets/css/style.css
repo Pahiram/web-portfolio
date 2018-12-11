@@ -27,6 +27,21 @@ body{
 	color: black;
 	transform: rotate(-20deg);
 }
+/*.nameBorder{
+	width: 60%;
+	height: 40%;
+	position: absolute;
+	bottom: -175px;
+	left: -25px;
+}
+.nameBorder1{
+	width: 60%;
+	height: 40%;
+	position: absolute;
+	bottom: -100px;
+	left: -45px;
+	transform: rotate(-180deg);
+}*/
 .headDetails{
 	position: absolute;
 	bottom: -60px;
@@ -37,11 +52,11 @@ body{
 }
 .headDetails1{
 	position: absolute;
-	bottom: -15px;
-	left: 250px;
+	bottom: -18px;
+	left: 220px;
 	color: black;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 45px;
+	font-family: Courier;
+	font-size: 55px;
 }
 .headDetails2{
 	position: absolute;
@@ -50,6 +65,14 @@ body{
 	color: black;
 	font-family: Comic Sans MS, cursive, sans-serif;
 	font-size: 80px;
+}
+.headDetails4{
+	position: absolute;
+	bottom: -80px;
+	left: 11%;
+	color: black;
+	font-family: Courier;
+	font-size: 25px;
 }
 .boxedHeaderInfo {
 	/*position: relative;*/
@@ -62,9 +85,9 @@ body{
   	/*padding: 10px;*/
   	position: relative;
 	top: 140px;
-	left: -250px;
-	width: 97%;
-	height: 380px;
+	left: -200px;
+	width: 90%;
+	height: 350px;
 }
 .boxedHeaderCover{
 	width: 50px;
@@ -110,7 +133,7 @@ body{
 	position: absolute;
 	top: -25px;
 	left: -10px;
-	color: black;
+	color: white;
 	font-family: Comic Sans MS, cursive, sans-serif;
 	font-size: 80px;
 }
@@ -118,7 +141,7 @@ body{
 	position: absolute;
 	top: -25px;
 	left: -180px;
-	color: black;
+	color: white;
 	font-family: Comic Sans MS, cursive, sans-serif;
 	font-size: 80px;
 }
@@ -126,7 +149,7 @@ body{
 	position: absolute;
 	top: 58px;
 	left: 100px;
-	color: black;
+	color: white;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 45px;
 }
@@ -142,7 +165,7 @@ body{
 	position: absolute;
 	top: -25px;
 	left: -13px;
-	color: black;
+	color: white;
 	font-family: Comic Sans MS, cursive, sans-serif;
 	font-size: 80px;
 }
@@ -150,7 +173,7 @@ body{
 	position: absolute;
 	top: -25px;
 	left: -180px;
-	color: black;
+	color: white;
 	font-family: Comic Sans MS, cursive, sans-serif;
 	font-size: 80px;
 }
@@ -167,7 +190,7 @@ body{
 	position: absolute;
 	top: -25px;
 	left: -13px;
-	color: black;
+	color: white;
 	font-family: Comic Sans MS, cursive, sans-serif;
 	font-size: 80px;
 }
@@ -175,7 +198,7 @@ body{
 	position: absolute;
 	top: -25px;
 	left: -180px;
-	color: black;
+	color: white;
 	font-family: Comic Sans MS, cursive, sans-serif;
 	font-size: 80px;
 }
@@ -184,4 +207,47 @@ body{
 	position: absolute;
 	top: 75px;
 	left: -88px;
+}
+/*WORK CONTENT*/
+.workExp{
+	width: 10%;
+	position: absolute;
+	top: 35%;
+	left: -95px;
+}
+.workDetails{
+	position: absolute;
+	top: 35%;
+	left: 6%;
+	color: black;
+	font-family: Courier;
+	font-size: 25px;
+}
+/*SKILLS CONTENT*/
+.skills{
+	width: 70%;
+	position: absolute;
+	left: -50px;
+	top: 140%;
+}
+.skills1{
+	width: 70%;
+	position: absolute;
+	left: -50px;
+	top: 320%;
+}
+.skills2{
+	width: 70%;
+	position: absolute;
+	left: 340%;
+	top: 140%;
+}
+.skillDetails{
+	position: absolute;
+	width: 150%;
+	bottom: 46%;
+	left: 180%;
+	color: black;
+	font-family: Courier;
+	font-size: 25px;
 }
