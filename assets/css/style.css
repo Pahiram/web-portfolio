@@ -1,0 +1,99 @@
+body{
+	color: white;
+	background: #202020;
+	overflow-x: hidden;
+	/*background: url("../images/portfolioBG.jpg");
+	height: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;*/
+}
+.NameHeader{
+	padding-top: 5%;
+}
+.userImage{
+	border-radius: 50%;
+	width: 15%;
+	border: 2px solid black;
+	position: absolute;
+	top: 30px;
+	left: 20%;
+}
+.queenImage{
+	width: 7%;
+	position: absolute;
+	bottom: 90px;
+	left: -128.5px;
+	color: black;
+	transform: rotate(-20deg);
+}
+.headDetails{
+	position: absolute;
+	bottom: -60px;
+	left: -90px;
+	color: black;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 80px;
+}
+.headDetails1{
+	position: absolute;
+	bottom: -15px;
+	left: 250px;
+	color: black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 45px;
+}
+.headDetails2{
+	position: absolute;
+	bottom: -60px;
+	left: 40%;
+	color: black;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 80px;
+}
+.boxedHeaderInfo {
+	/*position: relative;*/
+	/*top: 30%;
+	left: 14%;*/
+	/*border: 1px solid white ;
+	width: 70%;
+	height: 270px;
+	margin: auto;*/
+  	/*padding: 10px;*/
+  	position: relative;
+	top: 140px;
+	left: -250px;
+	width: 97%;
+	height: 380px;
+}
+.boxedHeaderCover{
+	width: 50px;
+	height: 50px;
+}
+
+.iconDiv{
+	position: relative;
+	bottom: -180px;
+	left: 20%;
+}
+.icon1{
+	width: 4%;
+	padding-right: 130px;
+}
+.icon2{
+	width: 4%;
+	padding-right: 130px;
+}
+.icon3{
+	width: 4%;
+	padding-right: 130px;
+}
+.icon4{
+	width: 4%;
+	padding-right: 130px;
+}
+.icon5{
+	width: 4%;
+	padding-right: 130px;
+}
+
