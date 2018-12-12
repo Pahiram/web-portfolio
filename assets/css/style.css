@@ -12,7 +12,7 @@ body{
 	padding-top: 5%;
 }
 .userImage{
-	border-radius: 50%;
+	border-radius: 50%; /*sample*/
 	width: 15%;
 	border: 2px solid black;
 	position: absolute;
