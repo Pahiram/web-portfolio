@@ -264,22 +264,99 @@ body{
 	font-size: 25px;
 }
 
+/*EDUCATION CONTENT*/
+.educImage{
+	width: 6%;
+	position: absolute;
+	top: 60px;
+	left: 170px;
+}
+.educImage1{
+	width: 6%;
+	position: absolute;
+	top: 60px;
+	left: 250px;
+}
+.headDetailsEducation1{
+	position: absolute;
+	top: -25px;
+	left: 325px;
+	color: white;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 80px;
+}
+.headDetailsEducation{
+	position: absolute;
+	top: -25px;
+	left: -180px;
+	color: white;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 80px;
+}
+.educImage2{
+	width: 180%;
+	position: absolute;
+	top: 130px;
+	left: -410px;
+}
+.educImage3{
+	width: 9.5%;
+	position: absolute;
+	top: 350px;
+	left: -90px;
+}
+.educImage4{
+	width: 10%;
+	position: absolute;
+	top: 515px;
+	left: -90px;
+}
+.educDetails{
+	position: absolute;
+	top: 27%;
+	left: 7%;
+	color: black;
+	font-family: Courier;
+	font-size: 25px;
+}
+.educDetails1{
+	position: absolute;
+	top: 52%;
+	left: 7%;
+	color: black;
+	font-family: Courier;
+	font-size: 25px;
+}
+.educDetails2{
+	position: absolute;
+	bottom: 2%;
+	left: 7%;
+	color: black;
+	font-family: Courier;
+	font-size: 25px;
+}
+/*PROJECT CONTENT*/
+
 /*NAV BAR*/
+/*nav {
+	position: absolute;
+	top: 10%;
+	left: .5%;
+  	width: 99%;
+}
 .ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: fixed;
+ /* position: fixed;
   top: 0%;
-  width: 99%;
-}
-
+  width: 99%;*/
+/*}
 .li {
   float: left;
 }
-
 .li a {
   display: block;
   color: white;
@@ -287,13 +364,9 @@ body{
   padding: 14px 16px;
   text-decoration: none;
 }
-
 .li a:hover:not(.active) {
   background-color: #111;
 }
-
 .active {
   background-color: #4CAF50;
-}
-
-/*PROJECT CONTENT*/
+}*/
