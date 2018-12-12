@@ -12,7 +12,7 @@ body{
 	padding-top: 5%;
 }
 .userImage{
-	border-radius: 50%; /*sample*/
+	border-radius: 50%;
 	width: 15%;
 	border: 2px solid black;
 	position: absolute;
@@ -262,6 +262,38 @@ body{
 	color: black;
 	font-family: Courier;
 	font-size: 25px;
+}
+
+/*NAV BAR*/
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0%;
+  width: 99%;
+}
+
+.li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
 }
 
 /*PROJECT CONTENT*/
