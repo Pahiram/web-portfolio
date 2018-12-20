@@ -16,7 +16,7 @@ body{
 	width: 15%;
 	border: 2px solid black;
 	position: absolute;
-	top: 30px;
+	top: 50px;
 	left: 20%;
 }
 .queenImage{
@@ -74,6 +74,7 @@ body{
 	font-family: Courier;
 	font-size: 25px;
 }
+
 .boxedHeaderInfo {
 	/*position: relative;*/
 	/*top: 30%;
@@ -126,10 +127,10 @@ body{
 /*SECOND PAGE LAYOUT*/
 .boxedHeader2ndInfo {
   	position: relative;
-	top: 30px;
+	top: 47px;
 	left: -250px;
 	width: 99.5%;
-	height: 650px;
+	height: 600px;
 }
 
 /*SECOND - WORK EXP*/
@@ -299,6 +300,12 @@ body{
 	top: 130px;
 	left: -410px;
 }
+.projectImage2{
+	width: 47%;
+	position: absolute;
+	top: 130px;
+	left: -103px;
+}
 .educImage3{
 	width: 9.5%;
 	position: absolute;
@@ -338,11 +345,8 @@ body{
 /*PROJECT CONTENT*/
 
 /*NAV BAR*/
-/*nav {
-	position: absolute;
-	top: 10%;
-	left: .5%;
-  	width: 99%;
+.divNav{
+	position: fixed;
 }
 .ul {
   list-style-type: none;
@@ -350,10 +354,11 @@ body{
   padding: 0;
   overflow: hidden;
   background-color: #333;
- /* position: fixed;
+ 	position: fixed;
   top: 0%;
-  width: 99%;*/
-/*}
+  left: 0;
+  width: 100%;
+}
 .li {
   float: left;
 }
@@ -369,4 +374,4 @@ body{
 }
 .active {
   background-color: #4CAF50;
-}*/
+}
